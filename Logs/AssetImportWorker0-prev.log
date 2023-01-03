@@ -1,0 +1,84 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/game1-13/rudy 2d
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54253
+Successfully changed project path to: /Users/game1-13/rudy 2d
+/Users/game1-13/rudy 2d
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 67.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/game1-13/rudy 2d/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2022-12-23 08:57:18.031 Unity[8741:300285] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+2022-12-23 08:57:18.031 Unity[8741:300285] Metal devices available: 1
+2022-12-23 08:57:18.031 Unity[8741:300285] 0: AMD Radeon Pro 5500 XT (high power)
+2022-12-23 08:57:18.031 Unity[8741:300285] Using device AMD Radeon Pro 5500 XT (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500 XT
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56741
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000474 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 65.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.076 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002677 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.069 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3139 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.5 MB.
+System memory in use after: 200.7 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3584.
+Total: 1.910580 ms (FindLiveObjects: 0.206485 ms CreateObjectMapping: 0.124692 ms MarkObjects: 1.520424 ms  DeleteObjects: 0.058169 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef33898c313dd3e56811f2e171a666cf') in 0.009122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 173.439936 seconds.
+  path: Assets/Art/Sprites/7d1c06b8-7c73-44b4-8c41-3246b3ce8427_image4.png
+  artifactKey: Guid(1c602cff09747431aa9923d6e2aac03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/7d1c06b8-7c73-44b4-8c41-3246b3ce8427_image4.png using Guid(1c602cff09747431aa9923d6e2aac03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791737485e6492de71df07cb9b87dc75') in 0.752357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.587476 seconds.
+  path: Assets/Art/Sprites/rudy.png
+  artifactKey: Guid(ca78ba726eb124b7da7d01253679ad74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/rudy.png using Guid(ca78ba726eb124b7da7d01253679ad74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b22e9ec05adc3cb230cdcd22dba71ac') in 0.007540 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
